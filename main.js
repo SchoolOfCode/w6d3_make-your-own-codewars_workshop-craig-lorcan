@@ -17,12 +17,7 @@ if bmi > 30 return "Your weight is obese"
 
 //👉 Write the function your CodeWarriors will start with below here:
 
-export function  bmiChecker(weight, height) {
-    
-    const bmi = (weight/height**2);
+export function bmiChecker(weight, height) {
+    // write your solution here
 
-    if (bmi <= 18.5) {return "Your weight is underweight"}
-    if (bmi <= 25.0) {return "Your weight is normal"}
-    if (bmi <= 30.0) {return "Your weight is overweight"}
-    if (bmi > 30) {return "Your weight is obese"}
 }
